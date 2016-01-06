@@ -26,7 +26,7 @@
 
 package javax.vecmath;
 
-import java.awt.Color;
+//import java.awt.Color;
 
 
 /**
@@ -104,12 +104,12 @@ public class Color4f extends Tuple4f implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public Color4f(Color color) {
-	super((float)color.getRed() / 255.0f,
-	      (float)color.getGreen() / 255.0f,
-	      (float)color.getBlue() / 255.0f,
-	      (float)color.getAlpha() / 255.0f);
-    }
+//    public Color4f(Color color) {
+//	super((float)color.getRed() / 255.0f,
+//	      (float)color.getGreen() / 255.0f,
+//	      (float)color.getBlue() / 255.0f,
+//	      (float)color.getAlpha() / 255.0f);
+//    }
 
 
     /**
@@ -130,12 +130,12 @@ public class Color4f extends Tuple4f implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public final void set(Color color) {
-	x = (float)color.getRed() / 255.0f;
-	y = (float)color.getGreen() / 255.0f;
-	z = (float)color.getBlue() / 255.0f;
-	w = (float)color.getAlpha() / 255.0f;
-    }
+//    public final void set(Color color) {
+//	x = (float)color.getRed() / 255.0f;
+//	y = (float)color.getGreen() / 255.0f;
+//	z = (float)color.getBlue() / 255.0f;
+//	w = (float)color.getAlpha() / 255.0f;
+//    }
 
 
     /**
@@ -146,13 +146,13 @@ public class Color4f extends Tuple4f implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public final Color get() {
-	int r = Math.round(x * 255.0f);
-	int g = Math.round(y * 255.0f);
-	int b = Math.round(z * 255.0f);
-	int a = Math.round(w * 255.0f);
-
-	return new Color(r, g, b, a);
-    }
+//    public final Color get() {
+//	int r = Math.round(x * 255.0f);
+//	int g = Math.round(y * 255.0f);
+//	int b = Math.round(z * 255.0f);
+//	int a = Math.round(w * 255.0f);
+//
+//	return new Color(r, g, b, a);
+//    }
 
 }

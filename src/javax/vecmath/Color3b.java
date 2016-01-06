@@ -26,7 +26,7 @@
 
 package javax.vecmath;
 
-import java.awt.Color;
+//import java.awt.Color;
 
 
 /**
@@ -98,11 +98,11 @@ public class Color3b extends Tuple3b implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public Color3b(Color color) {
-	super((byte)color.getRed(),
-	      (byte)color.getGreen(),
-	      (byte)color.getBlue());
-    }
+//    public Color3b(Color color) {
+//	super((byte)color.getRed(),
+//	      (byte)color.getGreen(),
+//	      (byte)color.getBlue());
+//    }
 
 
     /**
@@ -123,11 +123,11 @@ public class Color3b extends Tuple3b implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public final void set(Color color) {
-	x = (byte)color.getRed();
-	y = (byte)color.getGreen();
-	z = (byte)color.getBlue();
-    }
+//    public final void set(Color color) {
+//	x = (byte)color.getRed();
+//	y = (byte)color.getGreen();
+//	z = (byte)color.getBlue();
+//    }
 
 
     /**
@@ -138,12 +138,12 @@ public class Color3b extends Tuple3b implements java.io.Serializable {
      *
      * @since vecmath 1.2
      */
-    public final Color get() {
-	int r = (int)x & 0xff;
-	int g = (int)y & 0xff;
-	int b = (int)z & 0xff;
-
-	return new Color(r, g, b);
-    }
+//    public final Color get() {
+//	int r = (int)x & 0xff;
+//	int g = (int)y & 0xff;
+//	int b = (int)z & 0xff;
+//
+//	return new Color(r, g, b);
+//    }
 
 }
