@@ -4,7 +4,7 @@
 
 	<groupId>org.jogamp.java3d</groupId>
 	<artifactId>vecmath</artifactId>
-	<version>1.7.0</version>
+	<version>1.7.1</version>
 	
 	<name>Vector Maths Library</name>
 	<description>A Library supporting Vector Maths for the Java Platform</description>	
