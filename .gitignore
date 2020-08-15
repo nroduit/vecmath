@@ -3,3 +3,9 @@
 /.settings/
 /target/
 /bin/
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
